@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Volo.Abp.Domain.Entities;
+
 
 namespace ByBlazorApp.Parametreler
 {
@@ -16,5 +16,6 @@ namespace ByBlazorApp.Parametreler
         public Guid DonemId { get; set; }
 
         public Guid? DepoId { get; set; }
+
     }
 }
